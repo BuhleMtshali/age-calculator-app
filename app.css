@@ -78,7 +78,7 @@ img {
   color: var(--purple-text);
   font-weight: bolder;
   font-size: 45px;
-  padding-right: 5px;
+  padding-right: 8px;
 }
 .bottom-year {
   display: flex;
