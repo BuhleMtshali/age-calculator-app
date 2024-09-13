@@ -1,0 +1,10 @@
+:root {
+  --purple-text: hsl(259, 100%, 65%);
+  --bg-body-color: hsl(0, 0%, 94%);
+  --container-bg-color: #ffffff;
+  --error-color: hsl(0, 100%, 67%);
+  --bold-black-text: hsl(0, 0%, 8%);
+  --input-border-color: hsl(0, 0%, 86%);
+  --input-color-bold: hsl(0, 1%, 44%);
+  --input-font-size: 32px;
+}
