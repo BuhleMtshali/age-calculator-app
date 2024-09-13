@@ -8,3 +8,6 @@
   --input-color-bold: hsl(0, 1%, 44%);
   --input-font-size: 32px;
 }
+body {
+  background-color: var(--bg-body-color);
+}
