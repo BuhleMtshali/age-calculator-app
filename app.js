@@ -12,7 +12,13 @@ calculateBtn.addEventListener("click", () => {
   let currentYear = new Date(inputYearElement.value);
   let currentMonth = new Date(inputMonthElement.value);
   let currentDay = new Date(inputDayElement.value);
-
   let yearDifference = date.getFullYear() - currentYear.getFullYear();
+  let monthDifference = date.getMonth() - currentMonth.getMonth();
+  let dayDifference = date.getDate() - currentDay.getDate();
   outputYearElement.innerText = yearDifference;
+  outputMonthElement.innerText = monthDifference;
+  outputDayElement.innerText = dayDifference;
+  inputDayElement.value = "";
+  inputMonthElement.value = "";
+  inputYearElement.value = "";
 });
