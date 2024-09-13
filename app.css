@@ -57,9 +57,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 hr {
   width: 90%;
-  color: var(--input-border-color);
   background-color: var(--input-border-color);
-  margin-top: 8px;
 }
 img {
   background-color: var(--purple-text);
@@ -75,4 +73,18 @@ img {
 .mid {
   display: flex;
   align-items: center;
+}
+.purple-line {
+  color: var(--purple-text);
+  font-weight: bolder;
+  font-size: 35px;
+  padding-right: 5px;
+}
+.bottom-year {
+  display: flex;
+  align-items: center;
+}
+.bold-text {
+  font-weight: bolder;
+  font-size: 45px;
 }
