@@ -45,6 +45,7 @@ input[type="number"] {
   border-radius: 6px;
   border: 1px solid var(--input-border-color);
   font-size: 20px;
+  color: var(--input-color-bold);
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -53,4 +54,25 @@ input[type="number"]::-webkit-outer-spin-button {
 ::placeholder {
   font-weight: bolder;
   color: var(--input-color-bold);
+}
+hr {
+  width: 90%;
+  color: var(--input-border-color);
+  background-color: var(--input-border-color);
+  margin-top: 8px;
+}
+img {
+  background-color: var(--purple-text);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-top: 15px;
+}
+.mid {
+  display: flex;
+  align-items: center;
 }
